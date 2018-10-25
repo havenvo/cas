@@ -19,9 +19,6 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class DefaultPasswordEncoderTests {
 
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
-
     @Test
     public void verifyPasswordEncoderByCustomClassName() {
         val p = new PasswordEncoderProperties();

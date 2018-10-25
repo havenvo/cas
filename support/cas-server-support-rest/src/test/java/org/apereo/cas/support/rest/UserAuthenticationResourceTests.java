@@ -43,9 +43,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class UserAuthenticationResourceTests {
     private static final String TICKETS_RESOURCE_URL = "/cas/v1/users";
 
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
-
     @Mock
     private AuthenticationSystemSupport authenticationSupport;
 

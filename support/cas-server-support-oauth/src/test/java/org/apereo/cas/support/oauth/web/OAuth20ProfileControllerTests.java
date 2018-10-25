@@ -42,9 +42,6 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class OAuth20ProfileControllerTests extends AbstractOAuth20Tests {
 
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
-
     @Autowired
     @Qualifier("defaultAccessTokenFactory")
     private AccessTokenFactory accessTokenFactory;
